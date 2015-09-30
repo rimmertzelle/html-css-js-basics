@@ -1,0 +1,93 @@
+/*----------------------------------------------------------
+>>> TABLE OF CONTENTS
+*-----------------------------------------------------------
+
+# Typography
+# Elements
+# Menu
+# Content
+# Clearings
+
+----------------------------------------------------------*/
+
+
+/*----------------------------------------------------------
+# Typography
+-----------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------
+# Elements
+-----------------------------------------------------------*/
+
+body{
+    background-color: ivory;
+}
+
+header{
+    /*border:1px solid black;*/
+}
+
+h3{
+    position:absolute;
+    margin:auto;
+    top: 0; left: 0; bottom:0; right: 0;
+    padding:5px;
+    height: 20px;
+    width:170px;
+    text-align: center;
+    background-color:#fff;
+    opacity: 0.8;
+}
+
+
+/*----------------------------------------------------------
+# Navigation
+-----------------------------------------------------------*/
+
+ul>li{
+    /*display: inline-block;*/
+    padding:5px;
+    float:right;
+    list-style: none;
+}
+
+
+
+/*----------------------------------------------------------
+# Contents
+-----------------------------------------------------------*/
+
+.container{
+    width:960px;
+    margin:0 auto;
+}
+
+.recipes{
+    display:table;
+    margin:20px auto;
+}
+
+.recipes>article{
+    display:table-cell;
+    text-align: center;
+    width:300px;
+    height: 300px;
+    float:left;
+    margin:5px;
+    position: relative;
+}
+
+.recipes img{
+    width:100%;
+}
+
+/*----------------------------------------------------------
+# Clearings
+-----------------------------------------------------------*/
+
+.clearfix{
+    overflow:auto;
+}
